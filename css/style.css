@@ -1,0 +1,159 @@
+body {
+	direction: rtl;
+	font-size: 16px;
+}
+
+.contener {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*########################################### ===> SECTION HEADER START <===== ######### */
+header {
+	height: 150px;
+	background-color: rgba(0,0,0,0.2)
+}
+header input {
+	float: left
+}
+
+header img {
+	float: right;
+	margin-top: 80px;
+}
+
+header div {
+	overflow: hidden;
+	margin-top: 120px;
+}
+
+header div nav {
+	margin-top: 120px;
+}
+header div nav ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+header div nav ul li {
+	list-style: none;
+	float: right;
+	padding: 0 28px;
+	border-right: 1px solid #fff;
+}
+
+header div nav ul li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #fff;
+}
+
+/*########################################### ===> SECTION midel START <===== ######### */
+
+.middel {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.middel > div {
+	width: 30%;
+	float: left;
+	position: relative;
+}
+
+.middel .right-div {
+	background-image: url('../img/left.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	margin-right: 5%;
+}
+
+.middel .midel-div {
+	background-image: url('../img/midel-div.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+
+.middel .left-div {
+	background-image: url('../img/right.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	margin-left: 5%;
+}
+
+.middel div .dec-middel-divs {
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.middel div .dec-middel-divs p:first-child {
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+}
+
+.middel div .dec-middel-divs p + p {
+	margin-top: 10px;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
+}
+
+.middel div .dec-middel-divs div {
+	margin-top: 10px;
+	float: left;
+}
+
+.middel div .dec-middel-divs a {
+	color: #fff;
+}
+
+/*########################################### ===> SECTION midel next START <===== ######### */
+
+.next-middel{
+	overflow: hidden;
+}
+
+.next-middel > div > div{
+	float: right;
+	width: 30%;
+}
+
+.next-middel .next-right{
+	margin-left:5%; 
+}
+
+.next-middel .next-right > img{ 
+	display: block;
+}
+
+.next-middel .next-right > div{ 
+	float: left;
+	margin-top:  10px;
+}
+
+.next-middel .left-next{
+	margin-right:5%; 
+}
+
+.next-middel .left-next ul{
+	float: right;
+}
+
+.next-middel .left-next img{
+	float: left;
+}
+
+
+
